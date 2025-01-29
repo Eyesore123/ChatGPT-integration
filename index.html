@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT Integration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        input, button, textarea {
+            margin: 10px;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ChatGPT Integration</h1>
+        
+        <p>Enter your message and press enter:</p>
+        <input type="text" id="user-message" placeholder="Type your message...">
+        <!-- <button onclick="sendMessage()">Send Message</button> -->
+
+        <div id="message-container"></div>
+
+        <p>Response will appear here:</p>
+    </div>
+
+    <script src="chatgpt.js"></script>
+</body>
+</html>
